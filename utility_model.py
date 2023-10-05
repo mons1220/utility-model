@@ -9,7 +9,7 @@ class UM:
         m (int): Number of edges added at each step
         coef_k1 (int): Utility coefficient for direct connection
         coef_k2 (int): Utility coefficient for indirect connection
-                       (recommend >0, otherwise the pool will almost disappear)
+                       (>0, otherwise the pool will almost disappear)
         seed (int): Number of seed nodes (ring network)
         N (int): Number of nodes added to the network
     """
